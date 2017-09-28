@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>单个表单项的检验</title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	    <link rel="stylesheet" href="Task-1.css">
+	    <script type="text/javascript" src="task-1.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-2">
+					<p class="text-center">名称</p>
+				</div>
+				<div class="col-xs-8">
+					<input id="text" class="form-control" type="text" placeholder="">
+				</div>
+				<div class="col-xs-2">
+					<button id="btn1" class="btn btn-primary">验证</button>
+				</div>
+			</div>
+			<p id="result" class="para">必填，长度为4~16个字符</p>
+			<div class="row">
+				<div class="col-xs-2">
+					<p class="text-center">名称</p>
+				</div>
+				<div class="col-xs-8">
+					<input class="form-control" type="text" name="" placeholder="">
+				</div>
+				<div class="col-xs-2">
+					<button class="btn btn-primary">验证</button>
+				</div>
+			</div>
+			<p class="para">姓名不能为空</p>
+			<div class="row">
+				<div class="col-xs-2">
+					<p class="text-center">名称</p>
+				</div>
+				<div class="col-xs-8">
+					<input class="form-control" type="text" name="" placeholder="">
+				</div>
+				<div class="col-xs-2">
+					<button class="btn btn-primary">验证</button>
+				</div>
+			</div>
+			<p class="para">名称格式正确</p>
+		</div>
+
+	    <script src="jquery/jquery-3.2.1.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+	</body>
+</html>
+<body>

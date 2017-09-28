@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>多个表单动态检验</title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	    <link rel="stylesheet" href="Task-2.css">
+	    <script type="text/javascript" src="task-2.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-2">
+					<p class="text-center">姓名</p>
+				</div>
+				<div class="col-xs-10">
+					<input id="nameText" class="form-control" type="text" placeholder="">
+				</div>
+			</div>
+			<p id="name" class="para">必填，长度为4~16个字符</p>
+
+			<div class="row">
+				<div class="col-xs-2">
+					<p class="text-center">邮箱</p>
+				</div>
+				<div class="col-xs-10">
+					<input id="mailText" class="form-control" type="text" placeholder="">
+				</div>
+			</div>
+			<p id="email" class="para">请填写格式正确的邮箱</p>
+
+			<div class="row">
+				<div class="col-xs-2">
+					<p class="text-center">密码</p>
+				</div>
+				<div class="col-xs-10">
+					<input id="passwordText" class="form-control" type="text" name="" placeholder="">
+				</div>
+			</div>
+			<p id="password" class="para">请输入6位字符以上密码</p>
+
+			<div class="row">
+				<div class="col-xs-2">
+					<p class="text-center">确认密码</p>
+				</div>
+				<div class="col-xs-10">
+					<input id="checkPasswordText" class="form-control" type="text" name="" placeholder="">
+				</div>
+			</div>
+			<p id="checkPassword" class="para">再次输入相同的密码</p>
+
+			<div class="row">
+				<div class="col-xs-2">
+					<p class="text-center">手机</p>
+				</div>
+				<div class="col-xs-10">
+					<input id="telephoneText" class="form-control" type="text" placeholder="">
+				</div>
+			</div>
+			<p id="telephone" class="para">请填写手机号码</p>
+
+			<div class="row">
+				<div class="col-sm-10 col-sm-offset-2">
+					<button id="Button" class="btn btn-primary btn-block">提交</button>
+				</div>
+			</div>
+		</div>
+
+	    <script src="jquery/jquery-3.2.1.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+	</body>
+</html>
+<body>

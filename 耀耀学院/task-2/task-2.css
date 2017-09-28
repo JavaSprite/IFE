@@ -1,0 +1,13 @@
+.text-center{
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 5px;
+}
+.row{
+	margin-top:30px;
+	height: 50px;
+}
+.para{
+	color:lightgrey;
+	margin-left: 18%;
+}
